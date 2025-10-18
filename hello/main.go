@@ -7,7 +7,8 @@ import (
 
 func main() {
 	sum := greet.Add(10,10,10)
-	fmt.Println(sum, "\n")
+	fmt.Println(sum)
 	mensahe := greet.Hello("Ninja")
 	fmt.Println(mensahe)
+
 }
