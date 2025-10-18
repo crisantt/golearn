@@ -10,5 +10,4 @@ func main() {
 	fmt.Println(sum)
 	mensahe := greet.Hello("Ninja")
 	fmt.Println(mensahe)
-
 }
