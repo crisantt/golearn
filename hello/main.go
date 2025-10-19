@@ -10,4 +10,7 @@ func main() {
 	fmt.Println(sum)
 	mensahe := greet.Hello("Ninja")
 	fmt.Println(mensahe)
+	var aa string
+	fmt.Scan(&aa)
+	fmt.Println(aa)
 }
