@@ -10,7 +10,9 @@ func main() {
 	fmt.Println(sum)
 	mensahe := greet.Hello("Ninja")
 	fmt.Println(mensahe)
+
 	var aa string
-	fmt.Scan(&aa)
-	fmt.Println(aa)
+	fmt.Print("Ilagay ang iyong pangalan: ")
+	fmt.Scan(&aa, "\n")
+	fmt.Sprintf("Ang iyong pangalan ay %v", &aa)
 }
