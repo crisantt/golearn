@@ -14,5 +14,4 @@ func main() {
 	var aa string
 	fmt.Print("Ilagay ang iyong pangalan: ")
 	fmt.Scan(&aa, "\n")
-	fmt.Sprintf("Ang iyong pangalan ay %v", &aa)
 }
