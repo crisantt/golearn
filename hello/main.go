@@ -1,8 +1,9 @@
 package main
 
 import (
+	"fmt"
+
 	"example/greet" // This go file a module.
-	"fmt"           // This is a standard library format
 )
 
 func main() {
@@ -10,7 +11,6 @@ func main() {
 	fmt.Println(sum)
 	mensahe := greet.Hello("Ninja")
 	fmt.Println(mensahe)
-
 	var aa string
 	fmt.Print("Ilagay ang iyong pangalan: ")
 	fmt.Scan(&aa, "\n")
